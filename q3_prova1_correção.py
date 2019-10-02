@@ -34,5 +34,5 @@ def main():
     if deseja ==1:
         n=0
         print(pi(n))
-    main()
+    
 main()
