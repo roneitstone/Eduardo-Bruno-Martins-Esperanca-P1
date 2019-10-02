@@ -25,8 +25,7 @@ def pi (n):
             n2=(1/variante(cont))
             k=k+(n-n2)
             v2= n-n2
-        print((v1-v2),end= "/")
-    print("")   
+       
     return 4*k
 def variante(cont):
     return 1+2*cont
