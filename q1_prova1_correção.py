@@ -13,12 +13,12 @@ def baskara (a,b,c):
         return 0 
 
     else:
-        
-        return 1 , (-b+(k**(1/2)))/2*a ,  (-b-(k**(1/2)))/2*a
+        print((-b+(k**(1/2)))/2*a ,  (-b-(k**(1/2)))/2*a)
+        return 1 
 
 
 
 a = int(input("digite a = "))
 b = int(input("digite b = "))
 c = int(input("digite c = "))
-print(baskara(a,b,c))
+baskara(a,b,c)
